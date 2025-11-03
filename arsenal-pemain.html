@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Arsenal Fan Page</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+      }
+
+      .header {
+        background: #db0007;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .header img {
+        width: 50px;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+
+      .container {
+        display: flex;
+        min-height: 70vh;
+      }
+
+      .sidebar {
+        background: #fff3f3;
+        width: 25%;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .sidebar li {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+        cursor: pointer;
+      }
+
+      .sidebar li a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      .sidebar li:hover,
+      .sidebar li a:hover {
+        color: #db0007;
+        font-weight: bold;
+      }
+
+      .content {
+        background: white;
+        flex: 1;
+        padding: 20px;
+      }
+
+      .footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .highlight {
+        background: #fff0f0;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-left: 5px solid #db0007;
+      }
+
+      .players {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+      }
+
+      .player-card {
+        height: 400px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 5px #d86569;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      .player-image img {
+        width: 100%;
+        height: 150px;
+      }
+
+      .player-data {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg"
+        alt="Arsenal Logo"
+      />
+      <span><strong>Arsenal Indonesia Fan Page</strong></span>
+    </div>
+
+    <div class="container">
+      <div class="sidebar">
+        <h3>Navigasi</h3>
+        <ul>
+          <li><a href="arsenal.html">Beranda</a></li>
+          <li><a href="arsenal-berita.html">Berita</a></li>
+          <li><a href="arsenal-pemain.html">Pemain</a></li>
+          <li><a href="arsenal-jadwal">Jadwal Pertandingan</a></li>
+          <li><a href="arsenal-galery.html">Galeri</a></li>
+          <li><a href="arsenal-kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h2>Para Pemain Legendaris!</h2>
+        <div class="players">
+            <!-- Pemain 1 -->
+          <div class="player-card">
+            <div class="player-image">
+                <img src="https://talksport.com/wp-content/uploads/sites/5/2023/08/thierry-henry-celebrates-scoring-arsenals-840076702.jpg?w=1240" />
+            </div>
+            <div class="player-data">
+                <h4>Thiery Henry</h4>
+                <p>Bulan Agustus 1999, Henry pindah dari Juventus ke Arsenal, dengan biaya transfer £10,5 juta, dan bergabung kembali dengan mantan manajernya, Arsène Wenger. Di Arsenal Henry nantinya akan berkembang menjadi salah satu pemain sepak bola terbaik dunia,</p>
+            </div>
+          </div>
+
+          <!-- Pemain 2 -->
+          <div class="player-card">
+            <div class="player-image">
+                <img src="https://talksport.com/wp-content/uploads/sites/5/2022/02/GettyImages-1217820133.jpg?w=1240" />
+            </div>
+            <div class="player-data">
+                <h4>Denis Bergkamp</h4>
+                <p>Dia secara luas dianggap sebagai salah satu pemain terhebat di generasinya,  salah satu penyerang terhebat dalam sejarah Premier League dan di antara pemain terhebat Ajax, Arsenal dan Inter Milan. </p>
+            </div>
+          </div>
+
+          <!-- Pemain 3 -->
+          <div class="player-card">
+            <div class="player-image">
+                <img src="https://i0.wp.com/thesefootballtimes.co/wp-content/uploads/2016/12/vieira-arsenal.jpg?fit=1600%2C1019&ssl=1" />
+            </div>
+            <div class="player-data">
+                <h4>Patrick Vieira</h4>
+                <p>Dari seorang bocah pendiam yang dibesarkan oleh orang tua tunggal, Vieira menjelma menjadi salah satu gelandang terbaik dunia serta bergelimang gelar bersama Arsenal dan timnas Prancis.</p>
+            </div>
+          </div>
+
+          <!-- Pemain 4 -->
+          <div class="player-card">
+            <div class="player-image">
+                <img src="https://static0.givemesportimages.com/wordpress/wp-content/uploads/2024/03/david-seaman-old.JPG?q=49&fit=crop&w=825&dpr=2" />
+            </div>
+            <div class="player-data">
+                <h4>David Seaman</h4>
+                <p>Merupakan seorang mantan pemain sepak bola berkebangsaan Inggris. Ia mendapat gelar kebangsawanan MBE pada tahun 1997 atas keberhasilannya menjadi penjaga gawang terbaik yang pernah membela Timnas sepak bola Inggris.</p>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Fan page ini didedikasikan untuk semua penggemar Arsenal di Indonesia.
+          Di sini kamu bisa menemukan berita terbaru, informasi pemain, jadwal
+          pertandingan, dan banyak lagi.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        © 2025 Arsenal Indonesia Fan Page - Tidak berafiliasi resmi dengan
+        Arsenal FC
+      </p>
+    </div>
+  </body>
+</html>
